@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+h1,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+img.img-main {
+  border-radius: 20px 20px 0px 0px;
+}
+
+.container {
+  margin: 80px auto;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #fff;
+  width: 450px;
+  border: 1px solid hsl(223, 47%, 23%);
+}
+
+.container-top {
+  padding-bottom: 40px;
+}
+
+.title-main {
+  font-family: "Red Hat Display", sans-serif;
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+
+.description-box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 50px 0px 50px;
+}
+
+.description-main {
+  text-align: center;
+  font-family: "Red Hat Display", sans-serif;
+  color: hsl(224, 23%, 55%);
+  font-size: 1.2rem;
+  padding-bottom: 20px;
+}
+
+.plan {
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  width: 70%;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px 10px;
+}
+
+.plan-text {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1rem;
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+
+.price {
+  font-family: "Red Hat Display", sans-serif;
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+}
+
+.music-icon,
+.text {
+  padding: 30px 10px 30px 10px;
+}
+
+.text-link {
+  font-family: "Red Hat Display", sans-serif;
+  margin-right: 15px;
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+}
+
+.proceed-button {
+  width: 315px;
+  height: 45px;
+  padding-top: 30px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: hsl(245, 75%, 52%);
+  display: inline-block;
+  font-family: "Red Hat Display", sans-serif;
+  color: hsl(225, 100%, 98%);
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 10px 10px;
+  text-decoration: none;
+  border: none;
+}
+
+.cancel-button {
+  padding-bottom: 50px;
+}
+
+.cancel {
+  text-decoration: none;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 0.9rem;
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+}
+
+.attribution {
+  text-align: center;
+  font-family: "Red Hat Display", sans-serif;
+  color: hsl(223, 47%, 23%);
+}
+
+a.footer {
+  color: hsl(245, 75%, 52%);
+  text-decoration: none;
+}
